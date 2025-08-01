@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "6df26fdf-4636-4333-95f2-906e1f5e030b",
+		"name": "FriendsCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44059773",
+		"_collection_link": "https://keenanmenezes.postman.co/workspace/Keenan-Menezes's-Workspace~16dbf003-c076-407d-8e8e-19875f0482ae/collection/44059773-6df26fdf-4636-4333-95f2-906e1f5e030b?action=share&source=collection_link&creator=44059773"
+	},
+	"item": [
+		{
+			"name": "Get Show Details",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/show-details",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"show-details"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Episodes",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/episodes",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"episodes"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
