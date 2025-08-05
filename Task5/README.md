@@ -11,6 +11,7 @@ This is a Node.js + Express backend API for logging watched Friends episodes. It
 - Fetch all watched episodes sorted by most recent
 - Update watch timestamp for a given episode
 - Delete a watched episode by custom id
+- Well-organized Postman collection
 
 
 ## Installation
