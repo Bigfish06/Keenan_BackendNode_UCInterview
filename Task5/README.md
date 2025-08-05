@@ -79,10 +79,9 @@ DELETE http://localhost:5000/api/watched-episodes/10001
 ## Screenshots
 
 ![App Screenshot](https://i.ibb.co/k2tK5L3W/Screenshot-78.png)
-![App Screenshot](https://i.ibb.co/nNCY6BgT/Screenshot-79.png)
-![App Screenshot](https://i.ibb.co/z0PdKmz/Screenshot-80.png)
-![App Screenshot](https://i.ibb.co/FqDpQ5Vv/Screenshot-81.png)
-![App Screenshot](https://i.ibb.co/zWsTTqFp/Screenshot-82.png)
+![App Screenshot](https://i.ibb.co/mCxzS4Tg/Screenshot-92.png))
+![App Screenshot](https://i.ibb.co/6xH4VWD/Screenshot-89.png))
+![App Screenshot](https://i.ibb.co/XkztBrBk/Screenshot-87.png)
 ## Acknowledgements
 
 Credits: [MongoDB Atlas](https://www.mongodb.com/atlas)
