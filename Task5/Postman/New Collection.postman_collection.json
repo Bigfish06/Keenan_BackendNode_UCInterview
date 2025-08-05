@@ -1,0 +1,103 @@
+{
+	"info": {
+		"_postman_id": "ef2f9b6e-152b-4e0a-8a00-111e22e78052",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44059773",
+		"_collection_link": "https://keenanmenezes.postman.co/workspace/Keenan-Menezes's-Workspace~16dbf003-c076-407d-8e8e-19875f0482ae/collection/44059773-ef2f9b6e-152b-4e0a-8a00-111e22e78052?action=share&source=collection_link&creator=44059773"
+	},
+	"item": [
+		{
+			"name": "watched-episodes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/watched-episodes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"watched-episodes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "an entry",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/watched-episodes/10000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"watched-episodes",
+						"10000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add an episode",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":10000,\r\n    \"name\":\"The One with the New Junior Dev.\",\r\n    \"season\":1,\r\n    \"episodeNumber\":1,\r\n    \"userReview\":\"Junior Dev completes task3\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/watched-episodes/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"watched-episodes",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update timestamp",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/watched-episodes/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"watched-episodes",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
