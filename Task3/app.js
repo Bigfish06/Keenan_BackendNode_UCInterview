@@ -17,7 +17,6 @@ mongoose.connect('mongodb+srv://keenanmenezes2006:kee123@cluster0.klljzrc.mongod
 
 //fetch and store to db, before starting our server
 const fetchEpisodes=require('./services/fetchEpisodes')
-const Product = require('../task3trial/models/product.model')
 
 const start=async()=>{
     try {
