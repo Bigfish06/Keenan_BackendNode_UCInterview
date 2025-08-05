@@ -1,1 +1,1 @@
-# Each task contains its own README
+# Each task has a dedicated README inside its folder.
